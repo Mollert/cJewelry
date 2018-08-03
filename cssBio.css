@@ -1,0 +1,36 @@
+
+.bioMain {
+	width: 100%;
+	height: auto;
+	background-color: lavender;
+}
+
+.herBio {
+	width: 80%;
+	margin: 0 auto;
+	background-color: linen;
+}
+
+.herWorking {
+	float: left;	
+	margin: 0.4rem 3rem .4rem .4rem;
+	padding: 0.2rem;
+	border: black solid .4rem;
+}
+
+.herKiln {
+	float: right;
+	margin: 0.4rem;
+	padding: 0.2rem;
+	border: black solid .4rem;	
+}
+
+.bioHeading {
+	margin: 0;
+	font-size: 3rem;
+	font-style: bold;
+}
+
+.bioText {
+	font-size: 1.4rem;
+}
