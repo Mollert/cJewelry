@@ -1,0 +1,43 @@
+
+.jewelry {
+	padding: 2rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.imageSquare,
+.imageWide,
+.imageTall {
+	border: 1.0rem solid slategray;
+	margin: 2rem 1rem;
+}
+
+.imageSquare {
+	width: 300px;
+	height: 400px;
+}
+
+.imageWide {
+	width: 250px;
+	height: 280px;
+}
+
+.imageTall {
+	width: 220px;
+	height: 400px;
+}
+
+.theImages {
+	width: 100%;
+	height: auto;
+}
+
+.imageText {
+	margin: 0;
+	font-size: 2rem;
+	color: darkblue;
+	text-align: center;
+}
+

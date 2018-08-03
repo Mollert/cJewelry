@@ -1,0 +1,83 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Kalam', cursive;
+}
+
+.main {
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+
+.directions {
+	padding: 0.4rem 2rem;	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#logo {
+	width: 5rem;
+	height: 5rem;
+}
+
+.destinations {
+	font-size: 1.6rem;
+	font-weight: bold;
+	margin: 0 1.2rem;
+}
+
+.destinations a {
+	text-decoration: none;
+	color: darkblue;
+}
+
+.destinations a:hover {
+	color: brown;
+}
+
+.main::after {
+	position: absolute;
+	background-image: url(image/fireFurnace.png);
+	opacity: 0.30;	
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+	background-attachment: fixed;
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.footer {
+	background: black;
+	width: 100%;
+	font-size: 1.2rem;
+	color: white;
+	opacity: .7;	
+}
+
+.askToContact {
+	margin: 0 1rem;
+	padding: 1rem;
+	white-space: pre-wrap;
+}
+
+.contact {
+	margin: 0 1.2rem;
+	padding-bottom: 3rem;
+	list-style: none;
+}
+
+.aContact {
+	padding: .4rem 0;
+}
+
+.aContact a {
+	color: violet;
+}

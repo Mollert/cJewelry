@@ -1,0 +1,51 @@
+
+.earringsMain {
+	width: 100%;
+	height: 1000px;
+	background-color: seashell;
+}
+
+.earringsBox {
+	position: relative;
+	top: 100px;
+	left: 100px;
+	width: 300px;
+	height: 380px;
+	border: 1rem solid lightblue;
+}
+
+#earringsShow,
+#earringsNoShow {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: auto;
+	transition: opacity 1.5s;
+	-webkit-transition: opacity 1.5s;
+	-moz-transition: opacity 1.5s;
+	-o-transition: opacity 1.5s;	
+}
+#earringsShow {
+	opacity: 1;
+}
+
+#earringsNoShow {
+	opacity: 0;
+}
+
+.earringsBox:hover #earringsShow {
+	opacity: 0;
+}
+
+.earringsBox:hover #earringsNoShow {
+	opacity: 1;
+}
+
+.earringsText {
+	margin: 0;
+	position: absolute;
+	bottom: 0;
+	padding-left: 50px;
+	font-size: 1.6rem;
+	color: blue;
+}
